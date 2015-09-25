@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">dtd365</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- 登入 -->
+
+    <string name="input_phone_number">请输入您的手机号</string>
+    <string name="input_your_code">请输入您的密码</string>
+    <string name="login">登入</string>
+    <string name="register_once">立即注册</string>
+    <string name="find_code">找回密码</string>
+    <string name="error_code">密码错误</string>
+    <string name="forget_code">忘记密码？</string>
+    <string name="alert_username_null">手机号不能为空</string>
+    <string name="alert_username_error">手机号格式不正确</string>
+    <string name="alert_password_null">密码不能为空</string>
+
+    <!-- 注册 -->
+    <string name="register">注册</string>
+    <string name="safety_level">安全等级</string>
+    <string name="put_indentify_code">请输入手机验证码</string>
+    <string name="agreement_info">您同意当天金融《注册协议》和《投资咨询服务协议》条款</string>
+    <string name="get_indentify_code">获取验证码</string>
+    <string name="register_success">恭喜您注册成功</string>
+    <string name="register_promot">为了您的账户安全，清先实名认证</string>
+    <string name="certification">实名认证</string>
+    <string name="next_time">下次再说</string>
+
+    <!-- 实名认证 -->
+
+    <string name="real_name">真实姓名:</string>
+
+    <string name="id_code">身份证号:</string>
+    <string name="submit_sure">确认提交</string>
+    <!--更多 -->
+
+
+
+    <string name="more_frends">邀请好友</string>
+
+    <string name="more_us">关于我们</string>
+    <string name="more_problem">常见问题</string>
+    <string name="more_idea">意见反馈</string>
+
+    <string name="more_clac">收益计算器</string>
+    <string name="more_score">应用评分</string>
+    <string name="more_update">检查更新</string>
+    <string name="more_service">致电客服</string>
+    <string name="more_service_time">服务时间为09:00-17:30</string>
+
+    <string name="more_version">当前为V0.1</string>
+
+
+    <!-- 邀请记录 -->
+    <string name="invited_name">邀请人</string>
+    <string name="invited_time">邀请时间</string>
+    <string name="invited_status">状态</string>
+
+    <!-- 意见反馈 -->
+
+    <string name="feed_info">来这里一定有话要说吧，期待您的反馈</string>
+    <string name="feed_put_phone">请留下您的联系方式，方便我们联系您</string>
+    <string name="feed_msg_info">如有问题请致电客服：400 107 0365</string>
+
+    <!-- 收益计算器-->
+
+    <string name="calc_mony_num">投资金额:</string>
+    <string name="calc_mony_unit">元</string>
+    <string name="cnvestment_horizon">投资期限:</string>
+    <string name="mouth">月</string>
+    <string name="earnings_year">年化收益率:</string>
+    <string name="earnings_royalty">特权收益:</string>
+    <string name="calc_percent">%</string>
+    <string name="calc_start">开始计算</string>
+
+    <string name="calc_prompt_first">本息合计 :</string>
+    <string name="calc_prompt_result">0.0</string>
+    <string name="calc_prompt_second">(利息0.00元)</string>
+    <string name="calc_prompt_yuan">元</string>
+
+
+    <!-- 签到 -->
+
+
+    <string name="sgin_in_prompt">签到只需摇一摇</string>
+
+    <string name="sgin_in_days">您已成功签到(天)</string>
+
+    <string name="sgin_in_obtains">累计获得签到红包(天)</string>
+
+
+    <string name="sgin_in_five">连续签到5天获得</string>
+    <string name="sgin_in_ten">连续签到10天获得</string>
+
+    <string name="sgin_in_fivety">连续签到15天获得</string>
+    <string name="red_envelope">查看红包</string>
+    <string name="rules_envelope">红包使用规则</string>
+
+    <!-- common -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_failed">加载失败</string>
+    <string name="xlistview_header_hint_retry">重试</string>
+
+
+    <!-- 绑卡认证 -->
+
+
+    <string name="binding_recharge_num">请输入充值金额</string>
+    <string name="binding_bandkcard">绑定银行卡</string>
+    <string name="mode_of_payment">支付方式:</string>
+    <string name="quick_payment">快捷支付</string>
+    <string name="select_bank_name">选择银行名称</string>
+    <string name="input_card_num">选择银行卡号</string>
+    <string name="binding_info">持卡人须为本人，提交成功后不能修改</string>
+    <string name="certification_by_name">实名认证</string>
+    <string name="input_your_name">请输入您的姓名</string>
+
+    <string name="input_your_id">请输入您的身份证号</string>
+
+    <!-- 支付 -->
+
+    <string name="remaining_amount">剩余金额</string>
+
+    <string name="usr_amount">可用金额</string>
+    <string name="recharge">充值</string>
+
+    <string name="investment_tips">请输入投资金额。100元起投</string>
+    <string name="investment_tips_sec">如投资:</string>
+    <string name="expected_earnings">您的预期收益:</string>
+
+    <string name="input_irade_password">请输入交易密码</string>
+    <string name="irade_password_info">默认交易密码与登入密码相同</string>
+
+    <string name="choose_red_envelope">选择红包</string>
+    <string name="immediate_investment">立即投资</string>
+
+    <!-- 地址管理 -->
+
+    <string name="reciver_name">收货人姓名</string>
+    <string name="address_manger">地址管理</string>
+    <string name="reciver_phone">手机号</string>
+    <string name="post_encoding">邮政编码</string>
+    <string name="reciver_city">省、市、区</string>
+    <string name="reciver_street">街道</string>
+
+
+
+    <!-- 找回密码 -->
+
+    <string name="user_phone">请输入您的手机号 </string>
+    <string name="input_identifying_code">请输入手机验证码</string>
+    <string name="get_identifying_code">获取验证码</string>
+    <string name="get_identifying_econds">秒</string>
+    <string name="next">下一步</string>
+    <string name="retrieve_password">找回密码</string>
+
+
+    <string name="input_new_password">请输入您的新密码</string>
+    <string name="input_new_password_again">请再次输入您的新密码</string>
+    <string name="sure_submit">确认提交</string>
+
+
+
+    <!-- 修改密码 -->
+
+    <string name="input_password_code">请输入您的原密码</string>
+    <string name="new_password_again">再次输入新密码</string>
+
+
+
+    <!-- 账户管理 -->
+
+    <string name="login_password">登入密码</string>
+    <string name="trade_password">交易密码</string>
+    <string name="gesture_password">手势密码</string>
+    <string name="address_manager_user">常用地址管理</string>
+    <string name="safe_exit">安全退出</string>
+    <!-- 首页侧滑 -->
+
+    <string name="investment">投资</string>
+    <string name="account">账户</string>
+    <string name="capital">资金</string>
+    <string name="sigin_in">签到</string>
+    <string name="invitation">邀请</string>
+    <string name="more">更多</string>
+
+
+
+
+</resources>

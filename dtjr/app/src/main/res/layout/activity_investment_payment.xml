@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            style="@style/MatchParentLayout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/WrapParentLayout"
+                android:layout_weight="3"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    style="@style/Outermost_more_layer"
+                    android:layout_weight="1"
+                    android:background="@color/bg_title_bar" >
+
+                    <RelativeLayout
+                        android:id="@+id/first_layout"
+                        style="@style/WrapParentLayout"
+                        android:layout_marginLeft="@dimen/margin_20" >
+
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/remaining_amount"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <TextView
+                            android:id="@+id/remaining_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:layout_toRightOf="@id/text1"
+                            android:text="10000"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_18" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/remaining_amount"
+                            android:text="@string/calc_prompt_yuan"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_18" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        style="@style/WrapParentLayout"
+                        android:layout_below="@id/first_layout"
+                        android:layout_marginLeft="@dimen/margin_20"
+                        android:layout_marginRight="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_10" >
+
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/usr_amount"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <TextView
+                            android:id="@+id/usr_amount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/text2"
+                            android:text="10000"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_18" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/usr_amount"
+                            android:text="@string/calc_prompt_yuan"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_18" />
+
+                        <Button
+                            android:id="@+id/recharge_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="@string/recharge"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/font_size_16" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    style="@style/Outermost_more_layer"
+                    android:layout_weight="1"
+                    >
+
+                    <EditText
+                        android:id="@+id/investment_num_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/height_45"
+                        android:layout_marginTop="@dimen/margin_20"
+                        android:hint="@string/investment_tips" />
+
+                    <LinearLayout
+                        style="@style/WrapParentLayout"
+                        android:layout_below="@id/investment_num_edit"
+                        android:layout_marginLeft="@dimen/margin_10"
+                        android:layout_marginBottom="@dimen/margin_20"
+                        android:layout_marginTop="@dimen/margin_10" >
+
+                        <TextView
+                            style="@style/UPText_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="@string/investment_tips_sec" />
+
+                        <TextView
+                            android:id="@+id/if_invest_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10000"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="元"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <TextView
+                            style="@style/UPText_normal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_10"
+                            android:text="@string/expected_earnings"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <TextView
+                            android:id="@+id/expected_earnings"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_20"
+                            android:text="100"
+                            android:textColor="@color/expected_earnings"
+                            android:textSize="@dimen/font_size_14" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="元"
+                            android:textColor="@color/expected_earnings"
+                            android:textSize="@dimen/font_size_14" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/middle_layout"
+                style="@style/Outermost_more_layer"
+                android:layout_weight="2"
+                android:layout_marginTop="@dimen/margin_20"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/traders_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_40"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:hint="@string/input_irade_password" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:text="@string/irade_password_info" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/height_40"
+                    android:layout_marginBottom="@dimen/margin_10"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:hint="@string/choose_red_envelope" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WrapParentLayout"
+                android:layout_marginTop="@dimen/margin_30"
+                android:orientation="vertical"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/sure"
+                    style="@style/SubmitButtonStyle"
+                    android:layout_marginLeft="@dimen/margin_30"
+                    android:layout_marginRight="@dimen/margin_30"
+                    android:text="@string/immediate_investment" />
+
+                <LinearLayout
+                    style="@style/WrapParentLayout"
+                    android:layout_marginTop="@dimen/margin_20"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/UPText_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/forget_code" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="立即找回"
+                        android:textColor="@color/blue_colors"
+                        android:textSize="@dimen/font_size_14" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

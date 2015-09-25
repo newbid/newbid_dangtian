@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff333333</color>
+    <color name="black_font">#333333</color>
+    <color name="red">#ffff0000</color>
+    <color name="red_no_city">#ffff7676</color>
+    <color name="gray">#ffaaaaaa</color>
+    <color name="green">#ff018287</color>
+    <color name="ltblue">#ff158cfb</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="deepblue">#ff0090ff</color>
+    <color name="lightgray">#E5E5E5</color>
+    <color name="ltgray">#ff666666</color>
+    <color name="deepgray">#ff999999</color>
+    <color name="brown">#ff604a0f</color>
+    <color name="disableblack">#ffc5c5cb</color>
+    <color name="bg_first_filter">#fff7f7f7</color>
+    <color name="num_yellow">#ffea9c00</color>
+    <color name="text_yellow">#ffe8ae26</color>
+    <color name="tab_select_yellow">#ffffaa00</color>
+    <color name="disable">#ffe5e5e5</color>
+    <color name="bg_content_gray">#ffebedf0</color>
+    <color name="bg_add_app_gray">#ffefeff4</color>
+    <color name="bank_link">#ff004889</color>
+    <color name="light_yellow">#ffffe3a9</color>
+    <color name="bg_cards_main">#ff2c2d2e</color>
+    <color name="title_gray">#d4d4d4</color>
+    <color name="divider_cbd0d9">#ffcbd0d9</color>
+    <color name="text_b2b2b2">#ffb2b2b2</color>
+    <color name="order_not_paid">#ff7eb3ff</color>
+    <color name="mask">#80000000</color>
+    <color name="edit_text_hint">#ffc8c8c8</color>
+    <color name="life_long_clicked_bg">#fff9f9fb</color>
+    <color name="main_qrcode">#ff17b4e9</color>
+    <color name="no_card_prompt">#f7efda</color>
+    <color name="main_qrcode_bg">#ff2d2d2d</color>
+    <color name="weak_white">#ffcbcbcb</color>
+    <color name="dialog_btn">#ff158cfb</color>
+    <color name="bg_transparent">#E6000000</color>
+    <color name="bg_tab_gray">#ffebedf0</color>
+    <color name="myorder_month_bg_color">#ffdddfe3</color>
+    <color name="myorder_pay_bg_color">#ffebedf0</color>
+    <color name="discount_red">#ffff9266</color>
+    <color name="bg_welcome">#f4f4f4</color>
+    <color name="keyboardBg">#ff262d30</color>
+    <color name="keyboardText">#ffbcc5c9</color>
+    <color name="remind_status_on">#ff00b4ab</color>
+    <color name="remind_status_off">#ff999999</color>
+    <color name="bg_city_search">#ffb7b7b7</color>
+    <color name="bg_city_category">#fff7f7f7</color>
+    <color name="bg_metro_deposit">#ffdbdbdb</color>
+    <color name="metro_overdraw_amount_color">#ffff7f7f</color>
+    <color name="bg_apply_success">#ff83b2f5</color>
+    <color name="bg_apply_checking">#ffb4b4b4</color>
+    <color name="bg_apply_processing">#ff30d1c9</color>
+    <color name="bg_apply_fail">#ff7a7f</color>
+    <color name="bg_title_bar">#ff2d96e4</color>
+
+    <drawable name="bg_tab_tile">#ffffffff</drawable>
+    <drawable name="list_divider">#ffd4d4d4</drawable>
+    <drawable name="listSelector">#00000000</drawable>
+    <drawable name="keyboardNumBg">#ff6e777d</drawable>
+    <drawable name="keyboardNumBgFocus">#ff8a969e</drawable>
+    <drawable name="keyboardTextBg">#ff4d575c</drawable>
+    <drawable name="keyboardTextBgFocus">#ff8a969e</drawable>
+    <drawable name="pb_progress">#ffe8ae26</drawable>
+    <drawable name="pb_background">#ffffffff</drawable>
+
+    <color name="gesture_password_tip_color">#ffff5f5f</color>
+    <color name="rbtn_tab_textcolor">#ea9c00</color>
+    <color name="bg_trans_record_yellow">#ffffd36c</color>
+    <color name="deduct_notyet">#ff999999</color>
+    <color name="deduct_processing">#ff7eb3ff</color>
+    <color name="deduct_success">#ff60e2db</color>
+    <color name="deduct_fail">#ffff7a7f</color>
+    <color name="deduct_description">#ff666666</color>
+    <color name="light_yellow_month">#ffc0ae80</color>
+    <color name="progress_background">#666666</color>
+    <color name="progress_progress">#33ccff</color>
+    <color name="gray1">#ffd5d5d5</color>
+    <color name="gray3">#ffe6e2e2</color>
+    <!-- common -->
+    <color name="main_colors">#ff2d96e4</color>
+    <!-- 整体主色调、导航栏、登陆注册按钮颜色 -->
+    <color name="grey_colors">#ffc8c8c8</color>
+    <!-- 获取验证码底色颜色;输入框内灰色字体颜色；输入框颜色 -->
+    <color name="text_wechat_login">#ff999999</color>
+    <!-- 第三方登录字体颜色色值 -->
+    <color name="line_wechat_dotted">#ffebebeb</color>
+    <!-- 第三方登录虚线颜色色值 -->
+    <color name="white_colors">#ffffffff</color>
+    <!-- 白色 -->
+    <color name="text_reminded">#ff999999</color>
+    <!-- 提示语颜色（自动登录；忘记密码；没有账号我要登录/注册） -->
+    <color name="text_normal">#ff262626</color>
+    <!-- 文本主题色 -->
+    <color name="text_bottom_line">#c8c8c8</color>
+    <!-- 输入框下划线 -->
+    <color name="blue_colors">#ff2d96e4</color>
+    <!-- 蓝色标题颜色 -->
+    <color name="bg_gray_colors">#fff5f5f5</color>
+    <!-- 灰色的背景 -->
+
+
+    <!-- 下拉菜单 -->
+    <color name="popup_main_background">#b0000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="no_color">#00000000</color>
+    <color name="maketing_item">#66ccff</color>
+
+    <!-- common -->
+
+    <color name="bg_whole">#fff2f2f3</color>
+    <color name="bg_whole_white">#ffffffff</color>
+    <color name="bg_simple_item_normal">#ffffffff</color>
+    <color name="bg_simple_item_normal_ok">#ffffff</color>
+    <color name="bg_simple_item_pressed">#ffdedede</color>
+    <color name="bg_simple_item_divider">#ffcdcdce</color>
+    <color name="bg_block_divider">#ff17b7cf</color>
+    <color name="stroke_common_filter">#ffcdcdce</color>
+    <color name="solid_common_filter_normal">#ffffffff</color>
+    <color name="solid_common_filter_pressed">#ffdedede</color>
+    <color name="bg_dialog_common_filter">#4f000000</color>
+    <color name="bg_filter_item_divider">#ffcdcdce</color>
+    <color name="bg_highlight_filter_item_divider">#ff17b7cf</color>
+    <color name="bg_dashline_divider">#ffe3e3e4</color>
+    <color name="bg_blue_btn">#ff17b7cf</color>
+    <color name="bg_purple_btn">#ff9958b4</color>
+    <!-- add -->
+    <color name="gray2">#fff7f7f7</color>
+    <color name="deepGray">#666666</color>
+    <color name="gray4">#868686</color>
+    <color name="signin_days">#019fe7</color>
+
+    <color name="signin_obtains">#fa901e</color>
+    <color name="expected_earnings">#ff7200</color>
+    <color name="home_page">#3C4664</color>
+
+</resources>

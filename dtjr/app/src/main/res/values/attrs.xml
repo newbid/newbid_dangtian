@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LockPatternView">
+        <attr name="aspect" format="string" />
+    </declare-styleable>
+    <attr name = "rightPadding" format="dimension">
+    </attr>
+
+    <declare-styleable name="SlidingScrollView">
+        <attr name = "rightPadding">
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingScrollView1">
+        <attr name = "rightPadding">
+        </attr>
+    </declare-styleable>
+</resources>
